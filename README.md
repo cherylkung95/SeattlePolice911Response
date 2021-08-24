@@ -1,4 +1,4 @@
-# SeattlePolice911Response
+# Seattle Police 911 Response Time
 Analysis of Seattle Police 911 Response using ML. 
 
 Dataset source: https://www.kaggle.com/sohier/seattle-police-department-911-incident-response
