@@ -109,4 +109,4 @@ class BaseML():
     def normalize_features(self):
         scaler = preprocessing.StandardScaler().fit(self.df)
         df_scaled = scaler.transform(self.df)
-        self.df = pd.DataFrame(df_scaled, columns = self.df.columns, dtype= 'int64')
+        return pd.DataFrame(df_scaled, columns = self.df.columns, dtype= 'int64')
